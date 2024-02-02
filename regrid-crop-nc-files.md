@@ -58,4 +58,14 @@ The northwest of Ellesmere Island:
 
 Beaufort Sea:
 
+> cd <path/to/your/files>
+
+> cdo -sellonlatbox,-143,-135,71,77 ice_conc_nh_ease2-250_cdr-v2p0_20160101-20161231.nc beaufort_osi_2016.nc
+
+
 Laptev Sea:
+
+
+> cd <path/to/your/files>
+
+> cdo -sellonlatbox,120,133,78,75 ice_conc_nh_ease2-250_cdr-v2p0_20160101-20161231.nc laptev_osi_2016.nc
